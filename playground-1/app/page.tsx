@@ -15,7 +15,8 @@ import {
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex justify-center flex-col items-center">
+      <h1 className="text-4xl m-2">Shadecn</h1>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
